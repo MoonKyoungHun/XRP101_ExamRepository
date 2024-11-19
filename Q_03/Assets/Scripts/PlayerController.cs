@@ -35,6 +35,6 @@ public class PlayerController : MonoBehaviour
     public void Die()
     {
         _audio.Play();
-        gameObject.SetActive(false);
+        player.SetActive(false);
     }
 }
